@@ -143,11 +143,24 @@
 
 .about_copy {
   color: #888888;
-  font-size: 18px;
+  font-size: 19px;
   word-wrap: break-word;
-  max-width: 600px;
+  max-width: 660px;
   margin-left: 800px;
   margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+.about_skills {
+  color: #888888;
+  font-size: 26px;
+  word-wrap: break-word;
+  text-align: center;
+  max-width: 600px;
+  margin-left: 800px;
+  margin-top: 30px;
+  border: 1px solid #888888;
+  padding: 25px;
 }
 
 .andy_image {
@@ -171,6 +184,14 @@
   line-height: 1px;
   font-size: 30px;
 }
+
+.calculate_image {
+  float: left;
+  max-height: 400px;
+  max-width: 318px;
+  margin-left: 400px;
+}
+
 
 .blog_header {
   color: #888888;
