@@ -8,6 +8,8 @@ export default class Blog extends Component {
     return (
       <ScrollableAnchor id={'blog'}>
       <div className="blog">
+      <h1 className="blog_header">BLOG</h1>
+      <p className="blog_underline">___</p>
       </div>
       </ScrollableAnchor>
     );

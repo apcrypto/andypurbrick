@@ -36,24 +36,26 @@
   padding-bottom: 20px;
 }
 
-.view_work_btn {
-  font-size: 20px;
-  color: #FFFFFF;
+.view_work {
+  font-size: 30px;
   text-align: center;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 200px;
+  width: 300px;
   height: 40px;
   margin: auto;
-  background-color: #353635;
   line-height: 10px;
+  text-decoration: none;
+  padding-top: 30px;
+  color: #E31B6D;
+  /* border: 1px solid #FFFFFF; */
 }
 
 .andy {
-  color: #E100FF;
+  color: #E31B6D;
 }
 
 .navbar {
@@ -66,24 +68,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
-    padding-right: 40px
+    padding-right: 40px;
 }
 
 .navbar--hidden {
     top: -60px;
-}
-
-.navigation {
-  background-color: #1B242F;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  padding-right: 40px
-}
-
-
-.fixed-nav {
-  position: fixed;
 }
 
 .home_button {
@@ -91,7 +80,8 @@
   color: #FFFFFF;
   background-color: #1B242F;
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .about_button {
@@ -99,7 +89,8 @@
   color: #FFFFFF;
   background-color: #1B242F;
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .portfolio_button {
@@ -107,7 +98,8 @@
   color: #FFFFFF;
   background-color: #1B242F;
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .blog_button {
@@ -115,7 +107,8 @@
   color: #FFFFFF;
   background-color: #1B242F;
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .contact_button {
@@ -123,13 +116,90 @@
   color: #FFFFFF;
   background-color: #1B242F;
   font-size: 26px;
-  margin-right: 20px;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 .about {
   height:100vh;
   color: #FFFFFF;
   background-color: #FFFFFF;
+}
+
+.about_header {
+  color: #888888;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 1px;
+}
+
+.about_underline {
+  color: #888888;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1px;
+  font-size: 30px;
+}
+
+.about_copy {
+  color: #888888;
+  font-size: 18px;
+  word-wrap: break-word;
+  max-width: 600px;
+  margin-left: 800px;
+  margin-top: 200px;
+}
+
+.andy_image {
+  float: left;
+  max-height: 400px;
+  max-width: 318px;
+  margin-left: 400px;
+}
+
+.portfolio_header {
+  color: #888888;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 1px;
+}
+
+.portfolio_underline {
+  color: #888888;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1px;
+  font-size: 30px;
+}
+
+.blog_header {
+  color: #888888;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 1px;
+}
+
+.blog_underline {
+  color: #888888;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1px;
+  font-size: 30px;
+}
+
+.contact_header {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 1px;
+}
+
+.contact_underline {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1px;
+  font-size: 30px;
 }
 
 .portfolio {
@@ -147,5 +217,5 @@
 .contact {
   height:100vh;
   color: #FFFFFF;
-  background-color: #FFFFFF;
+  background-color: #353635;
 }

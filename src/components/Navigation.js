@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ScrollableAnchor from 'react-scrollable-anchor'
 import classnames from "classnames";
 
 export default class Navigation extends Component {
@@ -24,10 +23,7 @@ export default class Navigation extends Component {
 
   // Hide or show the menu.
   handleScroll = () => {
-    const { prevScrollpos } = this.state;
     const currentScrollPos = window.pageYOffset;
-    const invisible = prevScrollpos > currentScrollPos;
-    const visible = prevScrollpos < currentScrollPos;
 
     if (currentScrollPos > 0) {
       this.setState({
