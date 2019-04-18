@@ -14,6 +14,10 @@ export default class Blog extends Component {
       <div className="blog">
       <h1 className="blog_header">BLOG</h1>
       <p className="blog_underline">___</p>
+      <img className="react_image" alt="picture_of_react" src={react}/>
+      <img className="decentral_image" alt="picture_of_decentral" src={decentral}/>
+      <img className="rails_image" alt="picture_of_rails" src={rails}/>
+      <img className="pry_image" alt="picture_of_pry" src={pry}/>
       </div>
       </ScrollableAnchor>
     );

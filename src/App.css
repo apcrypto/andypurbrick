@@ -238,6 +238,44 @@
   font-size: 30px;
 }
 
+.react_image {
+  float: left;
+  max-height: 477px;
+  max-width: 600px;
+  margin-left: 340px;
+  margin-top: 50px;
+  border: 2px solid #E7E7EB;
+}
+
+.decentral_image {
+  float: left;
+  max-height: 477px;
+  max-width: 600px;
+  margin-left: 30px;
+  margin-top: 50px;
+  border: 2px solid #E7E7EB;
+
+}
+
+.rails_image {
+  float: right;
+  max-height: 477px;
+  max-width: 600px;
+  margin-right: 342px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 2px solid #E7E7EB;
+}
+
+.pry_image {
+  float: right;
+  height: 302px;
+  max-width: 600px;
+  margin-top: 20px;
+  border: 2px solid #E7E7EB;
+}
+
+
 .contact_header {
   color: #FFFFFF;
   text-align: center;
