@@ -187,9 +187,39 @@
 
 .calculate_image {
   float: left;
-  max-height: 400px;
-  max-width: 318px;
-  margin-left: 400px;
+  max-height: 477px;
+  max-width: 600px;
+  margin-left: 340px;
+  margin-top: 50px;
+  border: 2px solid #E7E7EB;
+}
+
+.beer_image {
+  float: left;
+  max-height: 477px;
+  max-width: 600px;
+  margin-left: 340px;
+  margin-top: 20px;
+  border: 2px solid #E7E7EB;
+
+}
+
+.room_image {
+  float: right;
+  max-height: 477px;
+  max-width: 600px;
+  margin-right: 340px;
+  margin-top: 50px;
+  border: 2px solid #E7E7EB;
+}
+
+.pets_image {
+  float: right;
+  height: 302px;
+  max-width: 600px;
+  margin-right: 340px;
+  margin-top: 20px;
+  border: 2px solid #E7E7EB;
 }
 
 

@@ -14,6 +14,9 @@ export default class Portfolio extends Component {
       <h1 className="portfolio_header">PORTFOLIO</h1>
       <p className="portfolio_underline">___</p>
       <img className="calculate_image" alt="picture_of_caculate" src={calculate}/>
+      <img className="room_image" alt="picture_of_room" src={room}/>
+      <img className="pets_image" alt="picture_of_pets" src={pets}/>
+      <img className="beer_image" alt="picture_of_beer" src={beer}/>
       </div>
       </ScrollableAnchor>
     );
