@@ -1,16 +1,59 @@
 import React, { Component } from "react";
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor from "react-scrollable-anchor";
 
 export default class Blog extends Component {
-
   render() {
-
     return (
-      <ScrollableAnchor id={'contact'}>
-      <div className="contact">
-      <h1 className="contact_header">CONTACT</h1>
-      <p className="contact_underline">___</p>
-      </div>
+      <ScrollableAnchor id={"contact"}>
+        <div className="contact">
+          <h1 className="contact_header">CONTACT</h1>
+          <p className="contact_underline">___</p>
+          <form className="contact-form" onSubmit={e => this.formSubmit(e)}>
+            <label class="message" htmlFor="message-input">
+              Your Message
+            </label>
+            <textarea
+              onChange={e => this.setState({ message: e.target.value })}
+              name="message"
+              class="message-input"
+              type="text"
+              placeholder="Please write your message here"
+              value={this.state.message}
+              required
+            />
+
+            <label class="message-name" htmlFor="message-name">
+              Your Name
+            </label>
+            <input
+              onChange={e => this.setState({ name: e.target.value })}
+              name="name"
+              class="message-name"
+              type="text"
+              placeholder="Your Name"
+              value={this.state.name}
+            />
+
+            <label class="message-email" htmlFor="message-email">
+              Your Email
+            </label>
+            <input
+              onChange={e => this.setState({ email: e.target.value })}
+              name="email"
+              class="message-email"
+              type="email"
+              placeholder="your@email.com"
+              required
+              value={this.state.email}
+            />
+
+            <div className="button--container">
+              <button type="submit" className="button button-primary">
+                {this.state.buttonText}
+              </button>
+            </div>
+          </form>
+        </div>
       </ScrollableAnchor>
     );
   }
