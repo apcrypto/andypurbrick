@@ -49,27 +49,28 @@ export default class Contact extends Component {
         <div className="contact">
           <h1 className="contact_header">CONTACT</h1>
           <p className="contact_underline">___</p>
+          <section className="form">
           <form className="contact-form" onSubmit={e => this.formSubmit(e)}>
-            <label class="message" htmlFor="message-input">
+            <label className="message" htmlFor="message-input">
               Your Message
             </label>
             <textarea
               onChange={e => this.setState({ message: e.target.value })}
               name="message"
-              class="message-input"
+              className="message-input"
               type="text"
               placeholder="Please write your message here"
               value={this.state.message}
               required
             />
 
-            <label class="message-name" htmlFor="message-name">
+            <label className="message-name" htmlFor="message-name">
               Your Name
             </label>
             <input
               onChange={e => this.setState({ name: e.target.value })}
               name="name"
-              class="message-name"
+              className="message-name"
               type="text"
               placeholder="Your Name"
               value={this.state.name}
@@ -81,7 +82,7 @@ export default class Contact extends Component {
             <input
               onChange={e => this.setState({ email: e.target.value })}
               name="email"
-              class="message-email"
+              className="message-email"
               type="email"
               placeholder="your@email.com"
               required
@@ -94,6 +95,7 @@ export default class Contact extends Component {
               </button>
             </div>
           </form>
+          </section>
         </div>
       </ScrollableAnchor>
     );
