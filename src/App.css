@@ -84,6 +84,10 @@
   text-decoration: none;
 }
 
+.home_button:hover {
+  color: #E31B6D;
+}
+
 .about_button {
   border: none;
   color: #FFFFFF;
@@ -91,6 +95,10 @@
   font-size: 18px;
   margin-right: 40px;
   text-decoration: none;
+}
+
+.about_button:hover {
+  color: #E31B6D;
 }
 
 .portfolio_button {
@@ -102,6 +110,11 @@
   text-decoration: none;
 }
 
+.portfolio_button:hover {
+  color: #E31B6D;
+}
+
+
 .blog_button {
   border: none;
   color: #FFFFFF;
@@ -109,6 +122,10 @@
   font-size: 18px;
   margin-right: 40px;
   text-decoration: none;
+}
+
+.blog_button:hover {
+  color: #E31B6D;
 }
 
 .contact_button {
@@ -119,6 +136,11 @@
   margin-right: 40px;
   text-decoration: none;
 }
+
+.contact_button:hover {
+  color: #E31B6D;
+}
+
 
 .about {
   height:100vh;
