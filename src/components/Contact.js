@@ -8,7 +8,7 @@ export default class Contact extends Component {
     message: "",
     email: "",
     sent: false,
-    buttonText: "Send Message"
+    buttonText: "SEND MESSAGE"
   };
 
   formSubmit = e => {
@@ -51,9 +51,7 @@ export default class Contact extends Component {
           <p className="contact_underline">___</p>
           <section className="form">
           <form className="contact-form" onSubmit={e => this.formSubmit(e)}>
-            <label className="message" htmlFor="message-input">
-              Your Message
-            </label>
+
             <textarea
               onChange={e => this.setState({ message: e.target.value })}
               name="message"
@@ -64,9 +62,6 @@ export default class Contact extends Component {
               required
             />
 
-            <label className="message-name" htmlFor="message-name">
-              Your Name
-            </label>
             <input
               onChange={e => this.setState({ name: e.target.value })}
               name="name"
@@ -76,9 +71,6 @@ export default class Contact extends Component {
               value={this.state.name}
             />
 
-            <label class="message-email" htmlFor="message-email">
-              Your Email
-            </label>
             <input
               onChange={e => this.setState({ email: e.target.value })}
               name="email"
@@ -90,7 +82,7 @@ export default class Contact extends Component {
             />
 
             <div className="button--container">
-              <button type="submit" className="button button-primary">
+              <button type="submit" className="submit_button">
                 {this.state.buttonText}
               </button>
             </div>

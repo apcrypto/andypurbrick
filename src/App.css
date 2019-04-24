@@ -299,3 +299,35 @@
   color: #FFFFFF;
   background-color: #353635;
 }
+
+.form {
+  width: 302px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  vertical-align: bottom;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.message-input {
+  width: 302px;
+  height: 302px;
+}
+
+.message-name {
+  width: 302px;
+  margin-top: 6px;
+}
+
+.message-email {
+  width: 302px;
+  margin-top: 8px;
+}
+
+.submit_button {
+  margin-top: 8px;
+}
