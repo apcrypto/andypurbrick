@@ -5,7 +5,7 @@
 
 .home_hello {
    font-style: Roboto;
-   font-size: 46px;
+   font-size: 36px;
    color: #FFFFFF;
    text-align: center;
    line-height: 2px;
@@ -21,7 +21,7 @@
 
 .home_dev {
   font-style: Roboto;
-  font-size: 46px;
+  font-size: 36px;
   color: #FFFFFF;
   text-align: center;
   line-height: 3px;
@@ -37,7 +37,7 @@
 }
 
 .view_work {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   position: absolute;
   top: 0;
@@ -52,6 +52,10 @@
   padding-top: 30px;
   color: #E31B6D;
   /* border: 1px solid #FFFFFF; */
+}
+
+.view_work:hover {
+  color: #FFFFFF;
 }
 
 .andy {
