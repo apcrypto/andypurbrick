@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
-import axios from 'axios';
+
 
 export default class Contact extends Component {
   state = {
@@ -24,14 +24,14 @@ export default class Contact extends Component {
       message: this.state.message
     };
 
-    axios
-      .post("API_URI", data)
-      .then(res => {
-        this.setState({ sent: true }, this.resetForm());
-      })
-      .catch(() => {
-        console.log("Message not sent");
-      });
+    // axios
+    //   .post("API_URI", data)
+    //   .then(res => {
+    //     this.setState({ sent: true }, this.resetForm());
+    //   })
+    //   .catch(() => {
+    //     console.log("Message not sent");
+    //   });
   };
 
   resetForm = () => {
