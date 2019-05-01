@@ -18,12 +18,12 @@ export default class Portfolio extends Component {
       <img className="room_image" alt="picture_of_room" src={room}/>
       <img className="pets_image" alt="picture_of_pets" src={pets}/>
       <div className="demo_links">
-      <a className="calc_git" href="#home">Github</a>
-      <a className="calc_demo" href="#home">Demo</a>
-      <a className="room_git" href="#home">Github</a>
-      <a className="room_demo" href="#home">Demo</a>
-      <a className="pet_git" href="#home">Github</a>
-      <a className="pet_demo" href="#home">Demo</a>
+      <a className="calc_git" href="https://github.com/apcrypto/calculate-frontend">Github</a>
+      <a className="calc_demo" href="https://youtu.be/xaE45I_vOUg">Demo</a>
+      <a className="room_git" href="https://github.com/apcrypto/dragARoom-frontend">Github</a>
+      <a className="room_demo" href="https://youtu.be/VchKvfUyaCM">Demo</a>
+      <a className="pet_git" href="https://github.com/apcrypto/rails-project-mode-london-web-111918">Github</a>
+      <a className="pet_demo" href="https://youtu.be/K3qM-9mQ6oo">Demo</a>
       </div>
       </section>
       </div>
