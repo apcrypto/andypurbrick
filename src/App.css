@@ -253,13 +253,30 @@
   text-decoration: none;
 }
 
-.room_git, .room_demo {
+.calc_demo {
+  border: none;
+  color: #888888;
+  font-size: 18px;
+  margin-right: 40px;
+    margin-left: 80px;
+  text-decoration: none;
+}
+
+.room_demo {
+  border: none;
+  color: #888888;
+  font-size: 18px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.room_git {
   border: none;
   color: #888888;
   font-size: 18px;
   margin-right: 80px;
+  margin-left: 80px;
   text-decoration: none;
-
 }
 
 .pet_demo {
@@ -267,7 +284,7 @@
   color: #888888;
   font-size: 18px;
   margin-right: 80px;
-  margin-left: 80px;
+  margin-left: 10px;
   text-decoration: none;
 }
 
