@@ -15,15 +15,15 @@ export default class Portfolio extends Component {
       <p className="portfolio_underline">___</p>
       <section className="projects">
 
-      <a href="https://github.com/apcrypto/calculate-frontend">
+      <a target="_blank" href="https://github.com/apcrypto/calculate-frontend">
       <img className="calculate_image" alt="picture_of_caculate" src={calculate}/>
       </a>
 
-      <a className="room_git" href="https://github.com/apcrypto/dragARoom-frontend">
+      <a target="_blank" className="room_git" href="https://github.com/apcrypto/dragARoom-frontend">
       <img className="room_image" alt="picture_of_room" src={room}/>
       </a>
 
-      <a className="pet_git" href="https://github.com/apcrypto/rails-project-mode-london-web-111918">
+      <a target="_blank" className="pet_git" href="https://github.com/apcrypto/rails-project-mode-london-web-111918">
       <img className="pets_image" alt="picture_of_pets" src={pets}/>
       </a>
 

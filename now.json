@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Andy-Purbrick",
+    "name": "my-react-app",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ],
