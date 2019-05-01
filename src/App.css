@@ -245,11 +245,12 @@
   margin: 10px;
 }
 
-.calc_git, .calc_demo {
+.calc_git {
   border: none;
   color: #888888;
   font-size: 18px;
   margin-right: 40px;
+  margin-left: 40px;
   text-decoration: none;
 }
 
@@ -258,7 +259,7 @@
   color: #888888;
   font-size: 18px;
   margin-right: 40px;
-    margin-left: 80px;
+  margin-left: 10px;
   text-decoration: none;
 }
 
@@ -266,7 +267,8 @@
   border: none;
   color: #888888;
   font-size: 18px;
-  margin-right: 10px;
+  margin-right: 80px;
+  margin-left: 10px;
   text-decoration: none;
 }
 
@@ -275,7 +277,7 @@
   color: #888888;
   font-size: 18px;
   margin-right: 80px;
-  margin-left: 80px;
+  margin-left: 20px;
   text-decoration: none;
 }
 
@@ -292,7 +294,7 @@
   border: none;
   color: #888888;
   font-size: 18px;
-  margin-right: 80px;
+  margin-right: 10px;
   margin-left: 80px;
   text-decoration: none;
 }
