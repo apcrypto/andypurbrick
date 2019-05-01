@@ -245,10 +245,26 @@
   margin: 10px;
 }
 
-.calc_git, .calc_demo, .room_git, .room_demo, .pet_git, .pet_demo {
+.calc_git, .calc_demo {
   border: none;
   color: #888888;
-  background-color: #1B242F;
+  font-size: 18px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.room_git, .room_demo {
+  border: none;
+  color: #888888;
+  font-size: 18px;
+  margin-right: 40px;
+  text-decoration: none;
+
+}
+
+.pet_git, .pet_demo {
+  border: none;
+  color: #888888;
   font-size: 18px;
   margin-right: 40px;
   text-decoration: none;
