@@ -1,6 +1,9 @@
 {
     "version": 2,
     "name": "my-react-app",
+    "alias": [
+      "www.andypurick.dev"
+    ],
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ],
