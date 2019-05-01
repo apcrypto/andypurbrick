@@ -247,7 +247,7 @@
 
 .calc_git, .calc_demo, .room_git, .room_demo, .pet_git, .pet_demo {
   border: none;
-  color: gray;
+  color: #888888;
   background-color: #1B242F;
   font-size: 18px;
   margin-right: 40px;
