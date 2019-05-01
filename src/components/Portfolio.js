@@ -17,6 +17,14 @@ export default class Portfolio extends Component {
       <img className="calculate_image" alt="picture_of_caculate" src={calculate}/>
       <img className="room_image" alt="picture_of_room" src={room}/>
       <img className="pets_image" alt="picture_of_pets" src={pets}/>
+      <div className="demo_links">
+      <a className="calc_git" href="#home">Github</a>
+      <a className="calc_demo" href="#home">Demo</a>
+      <a className="room_git" href="#home">Github</a>
+      <a className="room_demo" href="#home">Demo</a>
+      <a className="pet_git" href="#home">Github</a>
+      <a className="pet_demo" href="#home">Demo</a>
+      </div>
       </section>
       </div>
       </ScrollableAnchor>
