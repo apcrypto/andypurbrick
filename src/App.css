@@ -391,3 +391,10 @@ margin-top: 200px;
 .submit_button {
   margin-top: 8px;
 }
+
+/* Tablet */
+
+@media (max-width: 940px) {
+  .home_hello{
+    font-size: 16px;
+  }
