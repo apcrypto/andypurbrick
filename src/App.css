@@ -176,6 +176,14 @@
   margin-top: 100px;
 }
 
+.about_copy_940 {
+  color: #888888;
+  font-size: 16px;
+  max-width: 660px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
 .about_skills {
   color: #888888;
   font-size: 22px;
@@ -191,6 +199,14 @@
   max-height: 300px;
   max-width: auto;
   margin-left: 270px;
+  margin-right: 50px;
+  float: left;
+}
+
+.andy_image_940 {
+  max-height: 300px;
+  max-width: auto;
+  margin-left: 50px;
   margin-right: 50px;
   float: left;
 }
