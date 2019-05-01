@@ -262,11 +262,21 @@
 
 }
 
-.pet_git, .pet_demo {
+.pet_demo {
   border: none;
   color: #888888;
   font-size: 18px;
   margin-right: 80px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+
+.pet_git {
+  border: none;
+  color: #888888;
+  font-size: 18px;
+  margin-right: 80px;
+  margin-left: 80px;
   text-decoration: none;
 }
 
