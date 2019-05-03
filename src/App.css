@@ -152,6 +152,16 @@
   background-color: #FFFFFF;
 }
 
+.test_less {
+  color: black;
+  font-size: 26px;
+}
+
+.test_greater {
+  color: black;
+  font-size: 26px;
+}
+
 .about_header {
   color: #888888;
   text-align: center;
