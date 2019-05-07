@@ -17,6 +17,7 @@
    width: 50%;
    height: 25%;
    margin: auto;
+   
 }
 
 .home_dev {
@@ -152,15 +153,7 @@
   background-color: #FFFFFF;
 }
 
-.test_less {
-  color: black;
-  font-size: 26px;
-}
 
-.test_greater {
-  color: black;
-  font-size: 26px;
-}
 
 .about_header {
   color: #888888;
