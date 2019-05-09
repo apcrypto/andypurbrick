@@ -14,7 +14,16 @@ export default class About extends Component {
       <h1 className="about_header">ABOUT</h1>
       <p className="about_underline">___</p>
       <div>
-      <img className="andy_image" alt="picture_of_andy_purbrick" src={andy}/>
+
+      <Media query="(max-width: 1000px)">
+      {matches =>
+        matches ? (
+          <img className="andy_image_2" alt="picture_of_andy_purbrick" src={andy}/>
+        ) : (
+          <img className="andy_image_1" alt="picture_of_andy_purbrick" src={andy}/>
+        )
+      }
+      </Media>
 
       <Media query="(max-width: 1000px)">
       {matches =>

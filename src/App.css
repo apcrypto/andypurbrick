@@ -209,10 +209,18 @@
   padding: 10px;
 }
 
-.andy_image {
+.andy_image_1 {
   max-height: 300px;
   max-width: auto;
   margin-left: 270px;
+  margin-right: 50px;
+  float: left;
+}
+
+.andy_image_2 {
+  max-height: 300px;
+  max-width: auto;
+  margin-left: 200px;
   margin-right: 50px;
   float: left;
 }
