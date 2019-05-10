@@ -58,7 +58,7 @@
 
 .home_hello_2 {
   font-style: Roboto;
-  font-size: 18px;
+  font-size: 30px;
   color: #FFFFFF;
   text-align: center;
   /* line-height: 2px; */
@@ -68,13 +68,13 @@
   left: 0;
   right: 0;
   width: 50%;
-  height: 35%;
+  height: 40%;
   margin: auto;
 }
 
 .home_dev_2 {
   font-style: Roboto;
-  font-size: 18px;
+  font-size: 30px;
   color: #FFFFFF;
   text-align: center;
   /* line-height: px; */
@@ -84,14 +84,14 @@
   left: 0;
   right: 0;
   width: 50%;
-  height: 14%;
+  height: 18%;
   margin-top: 10px;
   margin: auto;
   padding-bottom: 20px;
 }
 
 .view_work_2 {
-  font-size: 18px;
+  font-size: 26px;
   text-align: center;
   position: absolute;
   top: 0;
@@ -99,7 +99,7 @@
   left: 0;
   right: 0;
   width: 300px;
-  height: 10px;
+  height: 1px;
   margin: auto;
   line-height: 10px;
   text-decoration: none;
@@ -540,6 +540,7 @@ padding-right: 10px; */
   text-decoration: none;
   font-size: 26px;
   text-align: center;
+  margin-top: 200px;
 }
 
 .contact_github_2:hover {
@@ -561,6 +562,7 @@ padding-right: 10px; */
   text-decoration: none;
   font-size: 26px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .contact_linkedin_2:hover {
@@ -583,6 +585,7 @@ padding-right: 10px; */
   text-decoration: none;
   font-size: 26px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .contact_medium_2:hover {
