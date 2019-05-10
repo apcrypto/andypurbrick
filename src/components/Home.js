@@ -21,17 +21,18 @@ export default class Home extends Component {
       }
       </Media>
 
-      <DeviceOrientation lockOrientation={'portrait'}>
       <Media query="(max-width: 820px)">
       {matches =>
         matches ? (
+          <DeviceOrientation lockOrientation={'portrait'}>
           <p className="home_dev_2">I'm a full stack web developer.</p>
+          </DeviceOrientation>
         ) : (
           <p className="home_dev">I'm a full stack web developer.</p>
         )
       }
       </Media>
-      </DeviceOrientation>
+
 
       <Media query="(max-width: 820px)">
       {matches =>
