@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Media from 'react-media'
-import DeviceOrientation, { Orientation } from 'react-screen-orientation'
 
 export default class Home extends Component {
 
@@ -24,15 +23,12 @@ export default class Home extends Component {
       <Media query="(max-width: 820px)">
       {matches =>
         matches ? (
-          <DeviceOrientation lockOrientation={'portrait'}>
           <p className="home_dev_2">I'm a full stack web developer.</p>
-          </DeviceOrientation>
         ) : (
           <p className="home_dev">I'm a full stack web developer.</p>
         )
       }
       </Media>
-
 
       <Media query="(max-width: 820px)">
       {matches =>
