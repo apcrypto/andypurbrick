@@ -58,7 +58,7 @@
 
 .home_hello_2 {
   font-style: Roboto;
-  font-size: 26px;
+  font-size: 18px;
   color: #FFFFFF;
   text-align: center;
   /* line-height: 2px; */
@@ -74,7 +74,7 @@
 
 .home_dev_2 {
   font-style: Roboto;
-  font-size: 26px;
+  font-size: 18px;
   color: #FFFFFF;
   text-align: center;
   /* line-height: px; */
@@ -91,7 +91,7 @@
 }
 
 .view_work_2 {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   position: absolute;
   top: 0;
