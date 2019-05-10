@@ -10,7 +10,17 @@ export default class Contact extends Component {
     return (
       <ScrollableAnchor id={"contact"}>
         <div className="contact">
-          <h1 className="contact_header">CONTACT</h1>
+
+        <Media query="(max-width: 820px)">
+        {matches =>
+          matches ? (
+            <h1 className="contact_header_2">CONTACT</h1>
+          ) : (
+            <h1 className="contact_header">CONTACT</h1>
+          )
+        }
+        </Media>
+
           <p className="contact_underline">___</p>
 
           <Media query="(max-width: 820px)">

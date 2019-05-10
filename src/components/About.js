@@ -11,7 +11,17 @@ export default class About extends Component {
       <ScrollableAnchor id={'about'}>
       <div className="about">
       <Navigation />
-      <h1 className="about_header">ABOUT</h1>
+
+      <Media query="(max-width: 820px)">
+      {matches =>
+        matches ? (
+          <h1 className="about_header_2">ABOUT</h1>
+        ) : (
+          <h1 className="about_header">ABOUT</h1>
+        )
+      }
+      </Media>
+
       <p className="about_underline">___</p>
       <div className="about_content">
 

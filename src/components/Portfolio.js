@@ -13,7 +13,16 @@ export default class Portfolio extends Component {
       <ScrollableAnchor id={'portfolio'}>
       <div className="portfolio">
 
-      <h1 className="portfolio_header">PORTFOLIO</h1>
+      <Media query="(max-width: 820px)">
+      {matches =>
+        matches ? (
+          <h1 className="portfolio_header_2">PORTFOLIO</h1>
+        ) : (
+          <h1 className="portfolio_header">PORTFOLIO</h1>
+        )
+      }
+      </Media>
+
       <p className="portfolio_underline">___</p>
       <Media query="(max-width: 820px)">
       {matches =>

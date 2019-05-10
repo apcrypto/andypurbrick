@@ -13,7 +13,17 @@ export default class Blog extends Component {
     return (
       <ScrollableAnchor id={'blog'}>
       <div className="blog">
-      <h1 className="blog_header">BLOG</h1>
+
+      <Media query="(max-width: 820px)">
+      {matches =>
+        matches ? (
+          <h1 className="blog_header_2">BLOG</h1>
+        ) : (
+          <h1 className="blog_header">BLOG</h1>
+        )
+      }
+      </Media>
+
       <p className="blog_underline">___</p>
       <Media query="(max-width: 820px)">
       {matches =>
