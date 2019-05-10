@@ -288,6 +288,11 @@
 
 /* Portfolio section */
 
+.portfolio {
+  position: relative;
+  text-align: center;
+}
+
 .portfolio_header {
   color: #888888;
   text-align: center;
@@ -365,6 +370,17 @@
   padding-right: 10px;
 }
 
+.blogs_2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  vertical-align: bottom;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 .blog_text {
   border: none;
   color: #888888;
@@ -419,6 +435,7 @@
   height:100vh;
   color: #FFFFFF;
   background-color: #FFFFFF;
+
 }
 
 .contact {

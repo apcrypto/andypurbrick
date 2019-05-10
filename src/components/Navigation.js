@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Media from 'react-media'
 import classnames from "classnames";
 
 export default class Navigation extends Component {
