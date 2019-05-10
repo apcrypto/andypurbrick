@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import Media from 'react-media'
-import classnames from "classnames";
+import classnames from "classnames"
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -39,6 +39,21 @@ export default class Navigation extends Component {
 
   render() {
     return (
+      <Media query="(max-width: 820px)">
+      {matches =>
+        matches ? (
+      <nav
+        className={classnames("navbar", {
+          "navbar--hidden": !this.state.visible
+        })}
+      >
+        <a className="home_button_2" href="#home">HOME</a>
+        <a className="about_button_2" href="#about">ABOUT</a>
+        <a className="portfolio_button_2" href="#portfolio">PORTFOLIO</a>
+        <a className="blog_button_2" href="#blog">BLOG</a>
+        <a className="contact_button_2" href="#contact">CONTACT</a>
+      </nav>
+    ):(
       <nav
         className={classnames("navbar", {
           "navbar--hidden": !this.state.visible
@@ -50,6 +65,9 @@ export default class Navigation extends Component {
         <a className="blog_button" href="#blog">BLOG</a>
         <a className="contact_button" href="#contact">CONTACT</a>
       </nav>
+    )
+  }
+  </Media>
     );
   }
 }

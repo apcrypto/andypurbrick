@@ -150,6 +150,19 @@
   color: #E31B6D;
 }
 
+.home_button_2 {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1B242F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.home_button_2:hover {
+  color: #E31B6D;
+}
+
 .about_button {
   border: none;
   color: #FFFFFF;
@@ -160,6 +173,19 @@
 }
 
 .about_button:hover {
+  color: #E31B6D;
+}
+
+.about_button_2 {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1B242F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.about_button_2:hover {
   color: #E31B6D;
 }
 
@@ -176,6 +202,18 @@
   color: #E31B6D;
 }
 
+.portfolio_button_2 {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1B242F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.portfolio_button_2:hover {
+  color: #E31B6D;
+}
 
 .blog_button {
   border: none;
@@ -190,6 +228,19 @@
   color: #E31B6D;
 }
 
+.blog_button_2 {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1B242F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.blog_button_2:hover {
+  color: #E31B6D;
+}
+
 .contact_button {
   border: none;
   color: #FFFFFF;
@@ -200,6 +251,19 @@
 }
 
 .contact_button:hover {
+  color: #E31B6D;
+}
+
+.contact_button_2 {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1B242F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contact_button_2:hover {
   color: #E31B6D;
 }
 
@@ -449,6 +513,17 @@ text-align: center;
 margin-top: 200px;
 }
 
+.contact_links_2 {
+display: flex;
+flex-direction: column;
+/* flex-wrap: wrap; */
+/* align-items: flex-end; */
+/* vertical-align: bottom; */
+/* justify-content: center; */
+/* padding-left: 10px;
+padding-right: 10px; */
+}
+
 .contact_github {
   color: #FFFFFF;
   text-decoration: none;
@@ -457,6 +532,17 @@ margin-top: 200px;
 }
 
 .contact_github:hover {
+  color: #E31B6D;
+}
+
+.contact_github_2 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+}
+
+.contact_github_2:hover {
   color: #E31B6D;
 }
 
@@ -470,6 +556,17 @@ margin-top: 200px;
   color: #E31B6D;
 }
 
+.contact_linkedin_2 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+}
+
+.contact_linkedin_2:hover {
+  color: #E31B6D;
+}
+
 .contact_medium {
   color: #FFFFFF;
   text-decoration: none;
@@ -478,6 +575,17 @@ margin-top: 200px;
 }
 
 .contact_medium:hover {
+  color: #E31B6D;
+}
+
+.contact_medium_2 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+}
+
+.contact_medium_2:hover {
   color: #E31B6D;
 }
 
