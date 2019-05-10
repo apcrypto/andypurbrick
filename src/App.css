@@ -133,6 +133,20 @@
     padding-right: 40px;
 }
 
+.navbar_2 {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    transition: top 0.6s;
+    background-color: #1B242F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
 .navbar--hidden {
     top: -60px;
 }
