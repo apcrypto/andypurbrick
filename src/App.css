@@ -282,10 +282,9 @@
 }
 
 .about {
-  height:100vh;
+  height:120vh;
   color: #FFFFFF;
   background-color: #FFFFFF;
-  margin-bottom: 40px;
 }
 
 .about_content {

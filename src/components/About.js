@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navigation from '../components/Navigation';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import andy from '../assets/andy.jpg'
-import Media from 'react-media';
+import Media from 'react-media'
 
 export default class About extends Component {
 
