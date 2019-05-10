@@ -43,7 +43,7 @@ export default class Navigation extends Component {
       {matches =>
         matches ? (
       <nav
-        className={classnames("navbar", {
+        className={classnames("navbar_2", {
           "navbar--hidden": !this.state.visible
         })}
       >
