@@ -143,7 +143,7 @@
     background-color: #1B242F;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
     padding-right: 40px;
 }
 
@@ -282,7 +282,7 @@
 }
 
 .about {
-  height:120vh;
+  height:140vh;
   color: #FFFFFF;
   background-color: #FFFFFF;
 }
@@ -511,7 +511,7 @@
 }
 
 .blog {
-  height:100vh;
+  height:120vh;
   color: #FFFFFF;
   background-color: #FFFFFF;
 
