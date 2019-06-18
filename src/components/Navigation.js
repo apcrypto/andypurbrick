@@ -1,6 +1,6 @@
-import React, { Component } from "react"
-import Media from 'react-media'
-import classnames from "classnames"
+import React, { Component } from "react";
+import Media from "react-media";
+import classnames from "classnames";
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class Navigation extends Component {
     };
   }
 
-    // Adds an event listener when the component is mount.
+  // Adds an event listener when the component is mount.
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
   }
@@ -30,7 +30,8 @@ export default class Navigation extends Component {
       this.setState({
         visible: true
       });
-    } if (currentScrollPos === 0) {
+    }
+    if (currentScrollPos === 0) {
       this.setState({
         visible: false
       });
@@ -40,34 +41,54 @@ export default class Navigation extends Component {
   render() {
     return (
       <Media query="(max-width: 820px)">
-      {matches =>
-        matches ? (
-      <nav
-        className={classnames("navbar_2", {
-          "navbar--hidden": !this.state.visible
-        })}
-      >
-        <a className="home_button_2" href="#home">HOME</a>
-        <a className="about_button_2" href="#about">ABOUT</a>
-        <a className="portfolio_button_2" href="#portfolio">PORTFOLIO</a>
-        <a className="blog_button_2" href="#blog">BLOG</a>
-        <a className="contact_button_2" href="#contact">CONTACT</a>
-      </nav>
-    ):(
-      <nav
-        className={classnames("navbar", {
-          "navbar--hidden": !this.state.visible
-        })}
-      >
-        <a className="home_button" href="#home">HOME</a>
-        <a className="about_button" href="#about">ABOUT</a>
-        <a className="portfolio_button" href="#portfolio">PORTFOLIO</a>
-        <a className="blog_button" href="#blog">BLOG</a>
-        <a className="contact_button" href="#contact">CONTACT</a>
-      </nav>
-    )
-  }
-  </Media>
+        {matches =>
+          matches ? (
+            <nav
+              className={classnames("navbar_2", {
+                "navbar--hidden": !this.state.visible
+              })}
+            >
+              <a className="home_button_2" href="#home">
+                HOME
+              </a>
+              <a className="about_button_2" href="#about">
+                ABOUT
+              </a>
+              <a className="portfolio_button_2" href="#portfolio">
+                PORTFOLIO
+              </a>
+              <a className="blog_button_2" href="#blog">
+                BLOG
+              </a>
+              <a className="contact_button_2" href="#contact">
+                CONTACT
+              </a>
+            </nav>
+          ) : (
+            <nav
+              className={classnames("navbar", {
+                "navbar--hidden": !this.state.visible
+              })}
+            >
+              <a className="home_button" href="#home">
+                HOME
+              </a>
+              <a className="about_button" href="#about">
+                ABOUT
+              </a>
+              <a className="portfolio_button" href="#portfolio">
+                PORTFOLIO
+              </a>
+              <a className="blog_button" href="#blog">
+                BLOG
+              </a>
+              <a className="contact_button" href="#contact">
+                CONTACT
+              </a>
+            </nav>
+          )
+        }
+      </Media>
     );
   }
 }
