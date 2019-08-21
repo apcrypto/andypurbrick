@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import "./home.css";
 
@@ -11,7 +11,7 @@ const home = props => (
       <p className="home_description">I'm a full stack web developer.</p>
 
       <a className="home_view-work" href="#about">
-        View my work >
+        Read about me and view my work >
       </a>
     </div>
   </ScrollableAnchor>

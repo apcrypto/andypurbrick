@@ -1,4 +1,34 @@
 .portfolio {
-  height: 100vh;
+  height: 250vh;
   padding-top: 100px;
+}
+
+.projects {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.calculate_image {
+  max-width: 100%;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+.room_image {
+  max-width: 100%;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+.pets_image {
+  max-width: 100%;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    height: 100vh;
+  }
 }

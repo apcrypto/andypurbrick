@@ -1,4 +1,34 @@
 .blog {
-  height: 100vh;
+  height: 240vh;
   padding-top: 100px;
+}
+
+.blogs {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.react_image {
+  max-width: 100%;
+  margin: 10px;
+  border: 2px solid #e7e7eb;
+}
+
+.decentral_image {
+  max-width: 100%;
+  margin: 10px;
+  border: 2px solid #e7e7eb;
+}
+
+.rails_image {
+  max-width: 100%;
+  margin: 10px;
+  border: 2px solid #e7e7eb;
+}
+
+@media (max-width: 768px) {
+  .blog {
+    height: 120vh;
+  }
 }
