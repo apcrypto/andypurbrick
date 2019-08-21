@@ -3,12 +3,10 @@
   padding-top: 100px;
   background-color: #353635;
 }
-
 .contact_links {
   text-align: center;
   margin-top: 200px;
 }
-
 .contact_github {
   color: #ffffff;
   text-decoration: none;
@@ -39,4 +37,26 @@
 
 .contact_medium:hover {
   color: #e31b6d;
+}
+
+@media (max-width: 768px) {
+  .contact_links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_github {
+    font-size: 26px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .contact_medium {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+  .contact_linkedin {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
 }

@@ -4,26 +4,34 @@
 }
 
 .blogs {
-  margin-right: 40px;
-  margin-left: 40px;
-  text-align: center;
+  max-width: 1030px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  vertical-align: bottom;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .react_image {
-  max-width: 100%;
+  max-width: 300px;
   margin: 10px;
   border: 2px solid #e7e7eb;
 }
 
 .decentral_image {
-  max-width: 100%;
   margin: 10px;
+  max-width: 300px;
   border: 2px solid #e7e7eb;
 }
 
 .rails_image {
-  max-width: 100%;
   margin: 10px;
+  max-width: 300px;
   border: 2px solid #e7e7eb;
 }
 
