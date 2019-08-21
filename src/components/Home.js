@@ -11,7 +11,7 @@ const home = props => (
       <p className="home_description">I'm a full stack web developer.</p>
 
       <a className="home_view-work" href="#about">
-        Read about me and view my work >
+        View my work >
       </a>
     </div>
   </ScrollableAnchor>

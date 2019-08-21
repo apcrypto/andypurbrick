@@ -33,3 +33,17 @@ p {
   text-decoration: none;
   font-size: 24px;
 }
+
+@media (max-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+
+  .home_view-work {
+    font-size: 20px;
+  }
+
+  .home_view-work:hover {
+    font-size: 20px;
+  }
+}
