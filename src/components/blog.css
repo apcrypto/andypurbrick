@@ -4,9 +4,8 @@
 }
 
 .blogs {
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .react_image {
