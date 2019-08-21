@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import Home from './components/Home';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
+import React, { Component } from "react";
+import Home from "./components/Home";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
-import './App.css';
 
 class App extends Component {
   state = {

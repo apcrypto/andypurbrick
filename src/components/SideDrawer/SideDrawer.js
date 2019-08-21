@@ -11,19 +11,19 @@ const sideDrawer = props => {
     <nav className={drawerClasses} onClick={props.drawerLinkClickHandler}>
       <ul>
         <li>
-          <a href="#specialistfactual">SPECIALIST FACTUAL</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#observational">OBSERVATIONAL</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#factualentertainment">FACTUAL ENTERTAINMENT</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="#blog">Blog</a>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
