@@ -5,23 +5,23 @@
 
 .andy_image {
   max-width: 50%;
-  margin: auto;
+  margin-left: auto;
   display: flex;
 }
 
 .about_text {
   margin-top: 0;
-  font-size: 26px;
+  font-size: 20px;
   color: #888888;
-  max-width: 600px;
+  max-width: 400px;
   text-align: justify;
   padding-right: 20px;
 }
 
 .about_skills {
-  font-size: 26px;
+  font-size: 20px;
   color: #888888;
-  max-width: 600px;
+  max-width: 400px;
   text-align: center;
   padding-right: 20px;
 }
@@ -68,5 +68,11 @@
 
   .about_skills {
     font-size: 20px;
+  }
+
+  .andy_image {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
   }
 }
