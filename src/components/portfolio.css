@@ -1,0 +1,47 @@
+.portfolio {
+  height: 250vh;
+  padding-top: 100px;
+}
+
+.projects {
+  max-width: 1030px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  vertical-align: bottom;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.calculate_image {
+  max-width: 300px;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+.room_image {
+  max-width: 300px;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+.pets_image {
+  height: 150px;
+  max-width: 300px;
+  border: 2px solid #e7e7eb;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    height: 100vh;
+  }
+
+  .projects {
+    margin-top: 50px;
+  }
+}

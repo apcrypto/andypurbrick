@@ -1,0 +1,49 @@
+.home {
+  height: 100vh;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #353635;
+}
+
+p {
+  font-size: 34px;
+}
+
+.home_intro {
+  font-style: Roboto;
+  color: #ffffff;
+}
+
+.home_description {
+  color: #ffffff;
+}
+
+.home_intro-name {
+  color: #e31b6d;
+}
+
+.home_view-work {
+  color: #e31b6d;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.home_view-work:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 24px;
+  }
+
+  .home_view-work {
+    font-size: 24px;
+  }
+
+  .home_view-work:hover {
+    font-size: 24px;
+  }
+}
