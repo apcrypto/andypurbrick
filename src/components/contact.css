@@ -48,15 +48,16 @@
   .contact_github {
     font-size: 26px;
     margin-right: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+  }
+
+  .contact_linkedin {
+    font-size: 26px;
+    margin-bottom: 35px;
   }
 
   .contact_medium {
     font-size: 26px;
     margin-left: 0px;
-  }
-  .contact_linkedin {
-    font-size: 26px;
-    margin-bottom: 15px;
   }
 }
