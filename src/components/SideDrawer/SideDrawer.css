@@ -10,7 +10,7 @@
   z-index: 200;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
-  margin-top: 79px;
+  margin-top: 64px;
 }
 
 .side_drawer.open {
