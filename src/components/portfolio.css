@@ -42,10 +42,18 @@
   margin-right: 10px;
 }
 
+.portfolio_github-link:hover {
+  color: #353333;
+}
+
 .portfolio_demo-link {
   text-decoration: none;
   color: #888888;
   margin-left: 10px;
+}
+
+.portfolio_demo-link:hover {
+  color: #353333;
 }
 
 .portfolio_links {
@@ -53,9 +61,16 @@
   color: #888888;
 }
 
+.portfolio_projects-header {
+  text-align: center;
+  color: #888888;
+  margin-bottom: 0;
+  font-size: 26px;
+}
+
 @media (max-width: 768px) {
   .portfolio {
-    height: 100vh;
+    height: 140vh;
   }
 
   .projects {

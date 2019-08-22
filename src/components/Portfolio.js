@@ -28,6 +28,7 @@ const portfolio = props => (
             <a
               href="https://github.com/apcrypto/calculate-frontend"
               className="portfolio_github-link"
+              target="_blank"
             >
               Github
             </a>
@@ -35,6 +36,7 @@ const portfolio = props => (
             <a
               href="https://youtu.be/xaE45I_vOUg"
               className="portfolio_demo-link"
+              target="_blank"
             >
               Demo
             </a>
@@ -48,6 +50,7 @@ const portfolio = props => (
             target="_blank"
             className="room_git"
             href="https://github.com/apcrypto/dragARoom-frontend"
+            target="_blank"
           >
             <img className="room_image" alt="picture_of_room" src={room} />
           </a>
@@ -55,6 +58,7 @@ const portfolio = props => (
             <a
               href="https://github.com/apcrypto/dragARoom-frontend"
               className="portfolio_github-link"
+              target="_blank"
             >
               Github
             </a>
@@ -62,6 +66,7 @@ const portfolio = props => (
             <a
               href="https://youtu.be/VchKvfUyaCM"
               className="portfolio_demo-link"
+              target="_blank"
             >
               Demo
             </a>
@@ -75,6 +80,7 @@ const portfolio = props => (
             target="_blank"
             className="pet_git"
             href="https://github.com/apcrypto/rails-project-mode-london-web-111918"
+            target="_blank"
           >
             <img className="pets_image" alt="picture_of_pets" src={pets} />
           </a>
@@ -82,6 +88,7 @@ const portfolio = props => (
             <a
               href="https://github.com/apcrypto/rails-project-mode-london-web-111918"
               className="portfolio_github-link"
+              target="_blank"
             >
               Github
             </a>
@@ -89,6 +96,7 @@ const portfolio = props => (
             <a
               href="https://youtu.be/K3qM-9mQ6oo"
               className="portfolio_demo-link"
+              target="_blank"
             >
               Demo
             </a>
