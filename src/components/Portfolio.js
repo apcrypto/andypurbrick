@@ -10,7 +10,7 @@ const portfolio = props => (
     <div className="portfolio">
       <h1 className="header">Portfolio</h1>
       <div className="projects">
-        <div>
+        <div className="projects_info">
           <div>
             <p className="portfolio_projects-header">CalcuLate</p>
           </div>
@@ -42,7 +42,7 @@ const portfolio = props => (
             </a>
           </div>
         </div>
-        <div>
+        <div className="projects_info">
           <div>
             <p className="portfolio_projects-header">Room Designer</p>
           </div>
@@ -72,7 +72,7 @@ const portfolio = props => (
             </a>
           </div>
         </div>
-        <div>
+        <div className="projects_info">
           <div>
             <p className="portfolio_projects-header">Pet Sitting App</p>
           </div>

@@ -65,7 +65,11 @@
   text-align: center;
   color: #888888;
   margin-bottom: 0;
-  font-size: 26px;
+  font-size: 22px;
+}
+
+.projects_info {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
