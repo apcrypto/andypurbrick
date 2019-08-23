@@ -14,16 +14,19 @@ const portfolio = props => (
           <div>
             <p className="portfolio_projects-header">CalcuLate</p>
           </div>
-          <a
-            target="_blank"
-            href="https://github.com/apcrypto/calculate-frontend"
-          >
-            <img
-              className="calculate_image"
-              alt="picture_of_caculate"
-              src={calculate}
-            />
-          </a>
+          <div className="zoom">
+            <a
+              target="_blank"
+              href="https://github.com/apcrypto/calculate-frontend"
+            >
+              <img
+                className="calculate_image"
+                alt="picture_of_caculate"
+                src={calculate}
+              />
+            </a>
+          </div>
+
           <div className="portfolio_links">
             <a
               href="https://github.com/apcrypto/calculate-frontend"
@@ -46,14 +49,16 @@ const portfolio = props => (
           <div>
             <p className="portfolio_projects-header">Room Designer</p>
           </div>
-          <a
-            target="_blank"
-            className="room_git"
-            href="https://github.com/apcrypto/dragARoom-frontend"
-            target="_blank"
-          >
-            <img className="room_image" alt="picture_of_room" src={room} />
-          </a>
+          <div className="zoom">
+            <a
+              target="_blank"
+              className="room_git"
+              href="https://github.com/apcrypto/dragARoom-frontend"
+              target="_blank"
+            >
+              <img className="room_image" alt="picture_of_room" src={room} />
+            </a>
+          </div>
           <div className="portfolio_links">
             <a
               href="https://github.com/apcrypto/dragARoom-frontend"
@@ -76,14 +81,16 @@ const portfolio = props => (
           <div>
             <p className="portfolio_projects-header">Pet Sitting App</p>
           </div>
-          <a
-            target="_blank"
-            className="pet_git"
-            href="https://github.com/apcrypto/rails-project-mode-london-web-111918"
-            target="_blank"
-          >
-            <img className="pets_image" alt="picture_of_pets" src={pets} />
-          </a>
+          <div className="zoom">
+            <a
+              target="_blank"
+              className="pet_git"
+              href="https://github.com/apcrypto/rails-project-mode-london-web-111918"
+              target="_blank"
+            >
+              <img className="pets_image" alt="picture_of_pets" src={pets} />
+            </a>
+          </div>
           <div className="portfolio_links">
             <a
               href="https://github.com/apcrypto/rails-project-mode-london-web-111918"

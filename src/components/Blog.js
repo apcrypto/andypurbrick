@@ -10,28 +10,34 @@ const blog = props => (
     <div className="blog">
       <h1 className="header">Blog</h1>
       <div className="blogs">
-        <a
-          target="_blank"
-          href="https://medium.com/@andypurbrick/react-angular-vue-whats-the-difference-c609dc6f9f37"
-        >
-          <img className="react_image" alt="picture_of_react" src={react} />
-        </a>
-        <a
-          target="_blank"
-          href="https://medium.com/@andypurbrick/the-decentralised-internet-6a353998d14f"
-        >
-          <img
-            className="decentral_image"
-            alt="picture_of_decentral"
-            src={decentral}
-          />
-        </a>
-        <a
-          target="_blank"
-          href="https://medium.com/@andypurbrick/leaving-sinatra-and-getting-on-the-rails-my-first-week-with-ruby-on-rails-9e9a52ba5ff8"
-        >
-          <img className="rails_image" alt="picture_of_rails" src={rails} />
-        </a>
+        <div className="zoom">
+          <a
+            target="_blank"
+            href="https://medium.com/@andypurbrick/react-angular-vue-whats-the-difference-c609dc6f9f37"
+          >
+            <img className="react_image" alt="picture_of_react" src={react} />
+          </a>
+        </div>
+        <div className="zoom">
+          <a
+            target="_blank"
+            href="https://medium.com/@andypurbrick/the-decentralised-internet-6a353998d14f"
+          >
+            <img
+              className="decentral_image"
+              alt="picture_of_decentral"
+              src={decentral}
+            />
+          </a>
+        </div>
+        <div className="zoom">
+          <a
+            target="_blank"
+            href="https://medium.com/@andypurbrick/leaving-sinatra-and-getting-on-the-rails-my-first-week-with-ruby-on-rails-9e9a52ba5ff8"
+          >
+            <img className="rails_image" alt="picture_of_rails" src={rails} />
+          </a>
+        </div>
       </div>
     </div>
   </ScrollableAnchor>

@@ -20,20 +20,20 @@
 .calculate_image {
   max-width: 300px;
   border: 2px solid #e7e7eb;
-  margin: 10px;
+  margin: 15px;
 }
 
 .room_image {
   max-width: 300px;
   border: 2px solid #e7e7eb;
-  margin: 10px;
+  margin: 15px;
 }
 
 .pets_image {
   height: 150px;
   max-width: 300px;
   border: 2px solid #e7e7eb;
-  margin: 10px;
+  margin: 15px;
 }
 
 .portfolio_github-link {
@@ -70,6 +70,15 @@
 
 .projects_info {
   margin-bottom: 60px;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
