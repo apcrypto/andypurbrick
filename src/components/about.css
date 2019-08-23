@@ -4,7 +4,7 @@
 }
 
 .andy_image {
-  max-width: 50%;
+  max-width: 49%;
   margin-left: auto;
   display: flex;
 }
@@ -66,15 +66,8 @@
     height: 120vh;
   }
 
-  .about_text {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .about_skills {
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .andy_image {
