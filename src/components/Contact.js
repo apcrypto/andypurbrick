@@ -5,7 +5,7 @@ import "./contact.css";
 const contact = props => (
   <ScrollableAnchor id={"contact"}>
     <div className="contact">
-      <h1 className="header">Contact</h1>
+      <h1 className="contact_header">Contact</h1>
       <div className="contact_links">
         <a
           className="contact_github"
