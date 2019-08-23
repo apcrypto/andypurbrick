@@ -89,4 +89,8 @@
   .projects {
     margin-top: 50px;
   }
+
+  .portfolio_projects-header {
+    margin-top: 0;
+  }
 }
