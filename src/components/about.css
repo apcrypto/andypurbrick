@@ -14,7 +14,6 @@
   font-size: 20px;
   color: #888888;
   max-width: 400px;
-  text-align: justify;
   padding-right: 20px;
 }
 
@@ -43,12 +42,14 @@
   .container {
     display: inline;
   }
+
   .about_text {
     font-size: 16px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
   }
+
   .andy_image {
     margin-bottom: 100px;
   }
@@ -64,6 +65,10 @@
 @media (max-width: 768px) {
   .about {
     height: 120vh;
+  }
+
+  .about_text {
+    text-align: justify;
   }
 
   .about_skills {
