@@ -82,4 +82,9 @@
     display: flex;
     padding-bottom: 15px;
   }
+
+  .item2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
